@@ -1,6 +1,4 @@
-"""
 Algoritmo de Euclides
-"""
 a = int(input("Dame primer número: "))
 b = int(input("Dame segundo número: "))
 
