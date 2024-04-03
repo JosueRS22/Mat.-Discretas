@@ -1,1 +1,20 @@
-ñ
+def numeros_amigos(x,y):
+  sumax=0
+  sumay=0
+  for i in range(1,x):
+      if x%i==0:
+          sumax+=i
+
+  for j in range(1,y):
+      if y%j==0:
+          sumay+=j
+
+  return sumax==y and sumay==x
+
+n1=int(input('Introduzca el primer número: '))
+n2=int(input('Introduzca el segundo número: '))
+
+if numeros_amigos(n1,n2):
+  print ('Son amigos')
+else:
+  print ('No son amigos')
